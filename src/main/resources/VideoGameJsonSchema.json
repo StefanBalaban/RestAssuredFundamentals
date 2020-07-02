@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "id": 17,
+      "name": "string",
+      "releaseDate": "2020-06-16T10:08:49.351Z",
+      "reviewScore": 0,
+      "category": "string",
+      "rating": "string"
+    }
+  ],
+  "required": [
+    "id",
+    "name",
+    "releaseDate",
+    "reviewScore",
+    "category",
+    "rating"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        17
+      ]
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The name schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "string"
+      ]
+    },
+    "releaseDate": {
+      "$id": "#/properties/releaseDate",
+      "type": "string",
+      "title": "The releaseDate schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2020-06-16T10:08:49.351Z"
+      ]
+    },
+    "reviewScore": {
+      "$id": "#/properties/reviewScore",
+      "type": "integer",
+      "title": "The reviewScore schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    },
+    "category": {
+      "$id": "#/properties/category",
+      "type": "string",
+      "title": "The category schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "string"
+      ]
+    },
+    "rating": {
+      "$id": "#/properties/rating",
+      "type": "string",
+      "title": "The rating schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "string"
+      ]
+    }
+  }
+}
