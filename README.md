@@ -1,3 +1,3 @@
 # RestAssuredFundamentals - Training Course code
 
-This is all of the code used in my Udemy video series - REST Assured Fundamentals
+Code I wrote while following a course for the RestAssured framework
